@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form class="input_fields">
+          <h1 style="text-align: center;">CV IN PDF</h1>
+          <div class="title">NAME</div>
+          <input type="text" name="name" placeholder="" />
+          <div class="title">SPECIALIZATION</div>
+          <input type="text" name="title" placeholder="" />
+          <div class="title">WORK EXPERIENCE</div>
+          <textarea name="workexp" placeholder=""></textarea>
+          <div class="title">EDUCATION</div>
+          <textarea name="academics" placeholder=""></textarea>
+          <div class="title">OBJECTIVE</div>
+          <input name="objective" placeholder="" />
+          <div class="title">SKILLS</div>
+          <textarea name="skills" placeholder="" ></textarea>
+          <div class="title">PROJECTS</div>
+          <textarea name="projects" placeholder="" ></textarea>
+          <div class="title">ACHIEVEMENTS AND AWARDS</div>
+          <textarea name="achievements" placeholder="" ></textarea>
+          <div class="title">CONTACTS</div>
+          <textarea name="contact" placeholder="" ></textarea>
+    </form>
+     <!-- resume preview -->
+    <div class="output">
+   
+    </div>  
+    <!-- button for toggle   -->
+   <div class="btn">
+        <button onclick="toggle()">Preview or edit</button>
+   </div>
+   <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+    <script src="src/index.js"></script>
+</body>
+</html>
